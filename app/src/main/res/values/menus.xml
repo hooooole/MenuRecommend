@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="name">
+        <item>김치볶음밥</item>
+        <item>초밥</item>
+        <item>김치찌개</item>
+        <item>콩나물국밥</item>
+        <item>스파게티</item>
+        <item>비빔밥</item>
+        <item>짜장면</item>
+        <item>쌀국수</item>
+        <item>부대찌개</item>
+        <item>돈까스</item>
+
+    </string-array>
+
+    <array name="image">
+        <item>@drawable/kimbok</item>
+        <item>@drawable/suisi</item>
+        <item>@drawable/kimjji</item>
+        <item>@drawable/kongguk</item>
+        <item>@drawable/spagetti</item>
+        <item>@drawable/bibimbob</item>
+        <item>@drawable/jjajang</item>
+        <item>@drawable/ssalguksu</item>
+        <item>@drawable/budae</item>
+        <item>@drawable/dongas</item>
+
+
+    </array>
+</resources>
