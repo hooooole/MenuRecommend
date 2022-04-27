@@ -10,29 +10,48 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/si_in"
         android:text="오늘의 메뉴는..."/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="1.5"
         android:gravity="center"
-        android:text="돈가스"/>
+        android:id="@+id/txtMenu"
+        android:textSize="60dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/hankang"
+        android:text="돈까스"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="6"
         android:src="@drawable/dongas"
+        android:id="@+id/imgMenu"
         android:layout_gravity="center"/>
-    <Button
-        android:layout_width="wrap_content"
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/round_button_dark"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:id="@+id/btnSearch"
+        android:fontFamily="@font/hankang"
+        android:textSize="30dp"
         android:text="맛집 검색하기"/>
-    <Button
-        android:layout_width="wrap_content"
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/round_button_dark"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="돌아가기"/>
+        android:fontFamily="@font/hankang"
+        android:id="@+id/btnBack"
+        android:textSize="30dp"
+        android:text="다시 고르기"/>
 
 
 </LinearLayout>

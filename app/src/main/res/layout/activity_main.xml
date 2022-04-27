@@ -7,17 +7,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_gravity="center_vertical">
         <android.widget.Button
             style="@style/Widget.AppCompat.Button"
-
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F1EBEB"
-            android:layout_gravity="left"
+            android:layout_marginHorizontal="60dp"
+            android:background="@drawable/round_button"
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/btnDraw"
+            android:fontFamily="@font/si_in"
+            android:textSize="35dp"
             android:text="오늘\n뭐먹지" />
 
     </LinearLayout>
@@ -25,7 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/mainBG"
+        android:background="@drawable/main_background"
         android:layout_weight="4">
     </LinearLayout>
 
